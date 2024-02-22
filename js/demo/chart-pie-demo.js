@@ -7,12 +7,13 @@ var ctx = document.getElementById("myPieChart");
 var myPieChart = new Chart(ctx, {
   type: 'doughnut',
   data: {
-    labels: ["Win", "Loss"],
+    labels: ["Loss", "Win"],
     datasets: [{
       data: [35, 65],
       backgroundColor: ['#e74a3b', '#1cc88a', '#e74a3b'],
-      hoverBackgroundColor: ['#2e59d9', '#17a673', '#2c9faf'],
-      hoverBorderColor: "rgba(234, 236, 244, 1)",
+      hoverBackgroundColor: ['#e02d1b', '#17a673', '#2c9faf'],
+      hoverBorderColor: "#b7b9cc",
+      borderColor: '#3a3b45',
     }],
   },
   options: {
@@ -20,7 +21,7 @@ var myPieChart = new Chart(ctx, {
     tooltips: {
       backgroundColor: "rgb(255,255,255)",
       bodyFontColor: "#858796",
-      borderColor: '#dddfeb',
+      borderColor: '#5a5c69',
       borderWidth: 1,
       xPadding: 15,
       yPadding: 15,

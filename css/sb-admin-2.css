@@ -9983,6 +9983,22 @@ a:focus {
   background-color: #3a3b45 !important;
 }
 
+.bg-dark1{
+  background-color: #040512 !important;
+}
+
+.bg-dark2{
+  background-color: #070811 !important;
+}
+
+.bg-dark3{
+  background-color: #121321 !important;
+}
+
+.border-color-dark1{
+  border-color: #3a3b45 !important;
+}
+
 .o-hidden {
   overflow: hidden !important;
 }
