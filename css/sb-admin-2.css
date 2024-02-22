@@ -9995,8 +9995,20 @@ a:focus {
   background-color: #121321 !important;
 }
 
+.bg-purple1{
+  background-color: #9A49ED !important;
+}
+
+.text-purple1{
+  color: #7539EE !important;
+}
+
 .border-color-dark1{
   border-color: #3a3b45 !important;
+}
+
+.border-color-dark2{
+  border-color: #5a5c69 !important;
 }
 
 .o-hidden {

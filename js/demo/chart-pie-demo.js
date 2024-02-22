@@ -14,13 +14,14 @@ var myPieChart = new Chart(ctx, {
       hoverBackgroundColor: ['#e02d1b', '#17a673', '#2c9faf'],
       hoverBorderColor: "#b7b9cc",
       borderColor: '#3a3b45',
+      bodyFontColor: '#dddfeb',
     }],
   },
   options: {
     maintainAspectRatio: false,
     tooltips: {
-      backgroundColor: "rgb(255,255,255)",
-      bodyFontColor: "#858796",
+      backgroundColor: "#121321",
+      bodyFontColor: "#dddfeb",
       borderColor: '#5a5c69',
       borderWidth: 1,
       xPadding: 15,
@@ -31,6 +32,6 @@ var myPieChart = new Chart(ctx, {
     legend: {
       display: false
     },
-    cutoutPercentage: 80,
+    cutoutPercentage: 75,
   },
 });

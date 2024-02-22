@@ -36,7 +36,7 @@ var myLineChart = new Chart(ctx, {
     datasets: [{
       label: "Earnings",
       lineTension: 0.3,
-      backgroundColor: "rgba(28, 200, 138, 0.05)",
+      backgroundColor: "rgba(28, 200, 138, 0.1)",
       borderColor: "rgba(28, 200, 138, 1)",
       pointRadius: 3,
       pointBackgroundColor: "rgba(28, 200, 138, 1)",
@@ -82,8 +82,8 @@ var myLineChart = new Chart(ctx, {
           }
         },
         gridLines: {
-          color: "rgb(234, 236, 244)",
-          zeroLineColor: "rgb(234, 236, 244)",
+          color: "#6e707e",
+          zeroLineColor: "#dddfeb",
           drawBorder: false,
           borderDash: [2],
           zeroLineBorderDash: [2]
@@ -94,12 +94,12 @@ var myLineChart = new Chart(ctx, {
       display: false
     },
     tooltips: {
-      backgroundColor: "rgb(255,255,255)",
-      bodyFontColor: "#858796",
+      backgroundColor: "#121321",
+      bodyFontColor: "#d1d3e2",
       titleMarginBottom: 10,
-      titleFontColor: '#6e707e',
+      titleFontColor: '#dddfeb',
       titleFontSize: 14,
-      borderColor: '#dddfeb',
+      borderColor: '#5a5c69',
       borderWidth: 1,
       xPadding: 15,
       yPadding: 15,
