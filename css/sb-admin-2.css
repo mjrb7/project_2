@@ -2355,6 +2355,32 @@ fieldset:disabled a.btn {
   pointer-events: none;
 }
 
+.add-bet-btn {
+  border-color: rgb(28, 200, 138); 
+  background-color:rgb(28, 200, 138); 
+}
+
+.add-bet-btn:hover {
+  border-color: #1CAA76; 
+  background-color:#1CAA76; 
+}
+
+.analyze-bet-btn {
+  border-color: #9A49ED; 
+  background-color:#9A49ED; 
+}
+
+.analyze-bet-btn:hover {
+  border-color: #813DC8; 
+  background-color:#813DC8; 
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #2e59d9;
+  border-color: #2653d4;
+}
+
 .btn-primary {
   color: #fff;
   background-color: #4e73df;
@@ -10001,6 +10027,10 @@ a:focus {
 
 .text-purple1{
   color: #7539EE !important;
+}
+
+.text-purple2{
+  color: #9A49ED !important;
 }
 
 .border-color-dark1{
