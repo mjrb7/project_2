@@ -10033,6 +10033,14 @@ a:focus {
   color: #9A49ED !important;
 }
 
+.invalid input:required:invalid {
+  background: #BE4C54;
+}
+
+.invalid input:required:valid {
+  background: #17D654;
+}
+
 .border-color-dark1{
   border-color: #3a3b45 !important;
 }

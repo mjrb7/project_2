@@ -515,43 +515,43 @@
                     <div class="modal-dialog">
                         <div class="modal-content bg-dark3 border-color-dark1 text-gray-300">
                         <div class="modal-header border-color-dark1">
-                            <h5 class="modal-title text-gray-300" id="exampleModalLabel"><i class="fas fa-plus-circle fa-sm" style="color:rgb(28, 200, 138)"></i> Add Bet</h5>
+                            <h5 class="modal-title text-white" id="exampleModalLabel"><i class="fas fa-plus-circle fa-sm" style="color:rgb(28, 200, 138)"></i> Add Bet</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true" class="text-gray-300">&times;</span>
                             </button>
                         </div>
-                        <div class="modal-body">
+                        <div class="modal-body text-white">
                             <form>
                             <div class="form-group">
                                 <label for="sport-name" class="col-form-label">Sport:</label>
-                                <select class="select bg-gray-900 border-color-dark1 text-gray-300">
+                                <select class="select bg-gray-900 border-color-dark1 text-gray-300" required>
                                     <option value="1">NFL</option>
                                     <option value="2">NBA</option>
                                     <option value="3">MLB</option>
                                     <option value="4">NHL</option>
                                     </select>
                                     <label for="bet-type" class="col-form-label">Bet Type:</label>
-                                    <select class="select bg-gray-900 border-color-dark1 text-gray-300">
+                                    <select class="select bg-gray-900 border-color-dark1 text-gray-300" required>
                                         <option value="1">Moneyline</option>
                                         <option value="2">Parlay</option>
                                     </select>
                                     <label for="bet-type2" class="col-form-label">Player/Team:</label>
-                                    <select class="select bg-gray-900 border-color-dark1 text-gray-300">
+                                    <select class="select bg-gray-900 border-color-dark1 text-gray-300" required>
                                         <option value="1">Team</option>
                                         <option value="2">Player</option>
                                     </select>
                             </div>
                             <div class="form-group">
                                 <label for="recipient-name" class="col-form-label">Player/Team Name:</label>
-                                <input type="text" class="form-control bg-gray-900 border-color-dark1 text-gray-300" id="recipient-name">
+                                <input type="text" class="form-control bg-gray-900 border-color-dark1 text-gray-300" id="recipient-name" required>
                             </div>
                             <div class="form-group">
                                 <label for="message-text" class="col-form-label">Bet Info:</label>
-                                <textarea class="form-control bg-gray-900 border-color-dark1 text-gray-300" id="message-text"></textarea>
+                                <textarea class="form-control bg-gray-900 border-color-dark1 text-gray-300" id="message-text" required></textarea>
                             </div>
                             <div class="modal-footer border-color-dark1">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                                <button type="button" class="btn add-bet-btn text-white"data-dismiss="modal" data-toggle="modal" data-target="#successModal">Add Bet</button>
+                                <button type="button" type="submit" class="btn add-bet-btn text-white" data-dismiss="modal" data-toggle="modal" data-target="#successModal">Add Bet</button>
                                 </div>
                             </form>
                         </div>
@@ -562,14 +562,14 @@
 
                     <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
-                        <div class="modal-content bg-dark3 border-color-dark1 text-gray-300">
-                        <div class="modal-header bg-dark3 border-color-dark1 text-gray-300">
-                            <h5 class="modal-title bg-dark3 border-color-dark1 text-gray-300" id="successModalLabel">Bet Added Successfully <i class="fas fa-fw fa-check text-success"></i></h5>
+                        <div class="modal-content bg-dark3 border-color-dark1 text-white">
+                        <div class="modal-header bg-dark3 border-color-dark1 text-white">
+                            <h5 class="modal-title bg-dark3 border-color-dark1 text-white" id="successModalLabel">Bet Added Successfully <i class="fas fa-fw fa-check text-success"></i></h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true" class="text-gray-300">&times;</span>
                             </button>
                         </div>
-                        <div class="modal-body">
+                        <div class="modal-body text-white">
                             Your bet was added and your betting history has been updated!
                         </div>
                         </div>
@@ -581,12 +581,12 @@
                     <div class="modal-dialog">
                         <div class="modal-content bg-dark3 border-color-dark1 text-gray-300">
                             <div class="modal-header border-color-dark1">
-                            <h5 class="modal-title text-gray-300" id="checkModalLabel"><i class="fas fa-fw fa-chart-area text-purple2"></i> Analyze Bet</h5>
+                            <h5 class="modal-title text-white" id="checkModalLabel"><i class="fas fa-fw fa-chart-area text-purple2"></i> Analyze Bet</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true" class="text-gray-300">&times;</span>
                             </button>
                         </div>
-                        <div class="modal-body">
+                        <div class="modal-body text-white">
                             <form>
                             <div class="form-group">
                                 <label for="sport-name" class="col-form-label">Sport:</label>
@@ -634,13 +634,13 @@
                     <div class="modal-dialog">
                         <div class="modal-content bg-dark3 border-color-dark1 text-gray-300">
                         <div class="modal-header bg-dark3 border-color-dark1 text-gray-300">
-                            <h5 class="modal-title text-gray-300" id="statModalLabel"> <i class="fas fa-fw fa-chart-area text-purple2"></i> Bet Statistics</h5>
+                            <h5 class="modal-title text-white" id="statModalLabel"> <i class="fas fa-fw fa-chart-area text-purple2"></i> Bet Statistics</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true" class="text-gray-300">&times;</span>
                             </button>
                         </div>
                         <div class="modal-body">
-                            <h5 class="text-gray-300">Team/Player Performance</h5>
+                            <h5 class="text-white">Team/Player Performance</h5>
                             <p>[Insert Interactive Graph Here]</p>
                             <label class="text-gray-500" for="time-frame" class="col-form-label">Time Frame:</label>
                             <select class="select bg-gray-900 border-color-dark1 text-gray-500">
@@ -650,7 +650,7 @@
                                 <option value="4">Last 5 Seasons</option>
                                 </select>
                             <hr>
-                            <h5 class="text-gray-300">Statistical Bet Likelihood</h5>
+                            <h5 class="text-white">Statistical Bet Likelihood</h5>
                             <p class="text-gray-500">Based on Time Frame Performance: <p class="text-success"><i class="fas fa-fw fa-bar-chart text-success"></i>63%</p></p>
                             </div>
                         </div>
