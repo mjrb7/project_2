@@ -34,11 +34,11 @@ var myBarChart = new Chart(ctx, {
   data: {
     labels: ["January", "February", "March", "April", "May", "June"],
     datasets: [{
-      label: "Revenue",
-      backgroundColor: "#4e73df",
-      hoverBackgroundColor: "#2e59d9",
+      label: "Points",
+      backgroundColor: "rgb(28, 200, 138)",
+      hoverBackgroundColor: "#1CAA76",
       borderColor: "#4e73df",
-      data: [4215, 5312, 6251, 7841, 9821, 14984],
+      data: [10,35,12,32,25,14],
     }],
   },
   options: {
@@ -68,17 +68,17 @@ var myBarChart = new Chart(ctx, {
       yAxes: [{
         ticks: {
           min: 0,
-          max: 15000,
-          maxTicksLimit: 5,
+          max: 50,
+          maxTicksLimit: 10,
           padding: 10,
-          // Include a dollar sign in the ticks
-          callback: function(value, index, values) {
-            return '$' + number_format(value);
-          }
+          // // Include a dollar sign in the ticks
+          // callback: function(value, index, values) {
+          //   return '$' + number_format(value);
+          // }
         },
         gridLines: {
-          color: "rgb(234, 236, 244)",
-          zeroLineColor: "rgb(234, 236, 244)",
+          color: "#d1d3e2",
+          zeroLineColor: "#d1d3e2",
           drawBorder: false,
           borderDash: [2],
           zeroLineBorderDash: [2]
@@ -90,22 +90,22 @@ var myBarChart = new Chart(ctx, {
     },
     tooltips: {
       titleMarginBottom: 10,
-      titleFontColor: '#6e707e',
+      titleFontColor: '#dddfeb',
       titleFontSize: 14,
-      backgroundColor: "rgb(255,255,255)",
-      bodyFontColor: "#858796",
-      borderColor: '#dddfeb',
+      backgroundColor: "#121321",
+      bodyFontColor: "#dddfeb",
+      borderColor: '#5a5c69',
       borderWidth: 1,
       xPadding: 15,
       yPadding: 15,
       displayColors: false,
       caretPadding: 10,
-      callbacks: {
-        label: function(tooltipItem, chart) {
-          var datasetLabel = chart.datasets[tooltipItem.datasetIndex].label || '';
-          return datasetLabel + ': $' + number_format(tooltipItem.yLabel);
-        }
-      }
+      // callbacks: {
+      //   label: function(tooltipItem, chart) {
+      //     var datasetLabel = chart.datasets[tooltipItem.datasetIndex].label || '';
+      //     return datasetLabel + ': $' + number_format(tooltipItem.yLabel);
+      //   }
+      // }
     },
   }
 });
