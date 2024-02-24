@@ -2365,6 +2365,10 @@ fieldset:disabled a.btn {
   background-color:#1CAA76; 
 }
 
+.text-green1{
+  color: rgb(28, 200, 138);
+}
+
 .analyze-bet-btn {
   border-color: #9A49ED; 
   background-color:#9A49ED; 
